@@ -19,7 +19,7 @@ const ArticlePreview = ({
     }, [openShare]);
 
     return (
-        <article className={styles.card}>
+        <div className={styles.card}>
             <div className={styles.header}>
                 <img className={styles.background}
                      src={background}
@@ -27,9 +27,9 @@ const ArticlePreview = ({
                 />
             </div>
             <div className={styles.body}>
-                <h3 className={styles.title}>
+                <h1 className={styles.title}>
                     {title}
-                </h3>
+                </h1>
                 <p className={styles.summary}>
                     {summary}
                 </p>
@@ -86,7 +86,7 @@ const ArticlePreview = ({
                     </button>
                 </div>
             </div>
-        </article>
+        </div>
     );
 };
 
