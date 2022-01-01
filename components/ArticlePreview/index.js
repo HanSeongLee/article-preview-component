@@ -27,9 +27,9 @@ const ArticlePreview = ({
                 />
             </div>
             <div className={styles.body}>
-                <h1 className={styles.title}>
+                <h2 className={styles.title}>
                     {title}
-                </h1>
+                </h2>
                 <p className={styles.summary}>
                     {summary}
                 </p>
@@ -49,6 +49,8 @@ const ArticlePreview = ({
                 </div>
                 <button className={styles.shareButton}
                         onClick={onShareClick}
+                        aria-label={'share'}
+                        title={'share'}
                 >
                     <ShareIcon/>
                 </button>
@@ -77,6 +79,8 @@ const ArticlePreview = ({
                     </ul>
                     <button className={styles.shareButton}
                             onClick={onShareClick}
+                            aria-label={'share'}
+                            title={'share'}
                     >
                         <ShareIcon/>
                     </button>

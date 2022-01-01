@@ -26,7 +26,7 @@
 
     @include media(">desktop") {
       grid-area: header;
-      max-width: 285px;
+      width: 285px;
       max-height: 280px;
     }
 
