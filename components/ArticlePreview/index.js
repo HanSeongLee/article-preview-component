@@ -27,9 +27,9 @@ const ArticlePreview = ({
                 />
             </div>
             <div className={styles.body}>
-                <h2 className={styles.title}>
+                <h3 className={styles.title}>
                     {title}
-                </h2>
+                </h3>
                 <p className={styles.summary}>
                     {summary}
                 </p>

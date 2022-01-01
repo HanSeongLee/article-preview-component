@@ -83,6 +83,7 @@
 
     @include media(">desktop") {
       grid-area: footer;
+      padding: 0 40px 32px;
     }
 
     .avatar {
